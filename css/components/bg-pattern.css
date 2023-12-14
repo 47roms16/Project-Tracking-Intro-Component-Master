@@ -1,0 +1,53 @@
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 11.7rem;
+  height: 27.7rem;
+  background-color: var(--light-grayish-blue);
+  border-bottom-left-radius: 5rem;
+  z-index: -1;
+}
+
+/* xs */
+/* @media (min-width: 375px) {
+
+} */
+
+/* sm */
+/* @media (min-width: 640px) {
+
+} */
+
+/* md */
+@media (min-width: 768px) {
+  body::before {
+    width: 26rem;
+    height: 23rem;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  body::before {
+    width: 32.5rem;
+    height: 24.5rem;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  body::before {
+    width: 37.5rem;
+    height: 25rem;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1440px) {
+  body::before {
+    width: 44rem;
+    height: 26.75rem;
+  }
+}

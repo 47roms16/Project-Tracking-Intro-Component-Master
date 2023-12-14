@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/images/favicon-32x32.png" />
+    <title>Project Tracking Intro Component Master</title>
+  </head>
+  <body>
+    <header class="header | container">
+      <div class="header__logo-wrap | slide-down">
+        <img src="/images/logo.svg" alt="Logo" />
+      </div>
+      <nav>
+        <ul class="primary-navigation__menu | slide-left">
+          <li><a class="primary-navigation__link" href="#">product</a></li>
+          <li><a class="primary-navigation__link" href="#">features</a></li>
+          <li><a class="primary-navigation__link" href="#">pricing</a></li>
+          <li class="primary-navigation__dot">•</li>
+          <li><a class="primary-navigation__link" href="#">login</a></li>
+        </ul>
+      </nav>
+
+      <button class="mobile-nav-toggle | slide-down">
+        <img
+          class="icon-hamburger"
+          src="/images/icon-hamburger.svg"
+          alt="Hamburger Icon"
+        />
+        <img class="icon-close" src="/images/icon-close.svg" alt="Close Icon" />
+      </button>
+      <!-- Create div instead to remove from documentation in larger screen -->
+      <div class="mobile-navigation">
+        <nav>
+          <ul class="mobile-navigation__menu">
+            <li><a class="mobile-navigation__link" href="#">product</a></li>
+            <li><a class="mobile-navigation__link" href="#">features</a></li>
+            <li><a class="mobile-navigation__link" href="#">pricing</a></li>
+            <li class="mobile-navigation__line"></li>
+            <li><a class="mobile-navigation__link" href="#">login</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="hero-wrap">
+        <div class="hero-img">
+          <img
+            class="scale-up"
+            src="images/illustration-devices.svg"
+            alt="Illustration devices"
+          />
+        </div>
+      </div>
+      <section class="main__section | container">
+        <div class="main__content | container slide-right">
+          <div class="main__title-wrap">
+            <p class="main__title">
+              <span class="main__title-emphasis">NEW</span> monograph dashboard
+            </p>
+          </div>
+          <div class="main__subtitle">
+            <h1 class="main__subtitle-h1">powerful insights into your team</h1>
+            <h2 class="main__subtitle-h2">
+              Project planning and time tracking for agile teams
+            </h2>
+          </div>
+          <!-- CTA -->
+          <div class="cta-container">
+            <button class="cta-btn">schedule a demo</button>
+            <p class="cta-text">to see a preview</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

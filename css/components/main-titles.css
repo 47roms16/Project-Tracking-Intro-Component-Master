@@ -1,0 +1,149 @@
+.main__section {
+  display: flex;
+  margin-top: var(--size-11xl);
+  justify-content: center;
+}
+
+.main__title {
+  font-size: var(--size-base);
+  text-transform: uppercase;
+  letter-spacing: 0.275rem;
+  color: var(--grayish-blue);
+}
+
+.main__title-emphasis {
+  margin-right: var(--size-xs);
+  padding: var(--size-3xs) var(--size-xs);
+  font-size: var(--size-sm);
+  font-weight: 600;
+  letter-spacing: 0.075rem;
+  background-color: var(--very-dark-blue);
+  color: var(--light-grayish-blue);
+  border-radius: 100vw;
+}
+
+.main__subtitle {
+  margin-top: var(--size-md);
+}
+
+.main__subtitle-h1 {
+  font-size: calc(18px * 2.2125);
+  max-width: 17ch;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--very-dark-blue);
+}
+
+.main__subtitle-h2 {
+  margin-top: var(--size-base);
+  font: 400 calc(var(--size-lg) * 1.075) var(--ff-body);
+  line-height: 1.7rem;
+  max-width: 28ch;
+  color: var(--dark-grayish-blue);
+}
+
+/* xs */
+/* @media (min-width: 375px) {
+
+} */
+
+/* sm */
+@media (min-width: 640px) {
+  .main__section {
+    align-items: flex-start;
+  }
+
+  .main__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main__content:nth-child(even) {
+    align-content: end;
+  }
+
+  .main__subtitle-h1 {
+    font-size: calc(18px * 2);
+    max-width: 100%;
+  }
+
+  .main__subtitle-h2 {
+    text-align: center;
+    max-width: 100%;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .main__section {
+    display: block;
+  }
+
+  .main__content {
+    display: block;
+  }
+
+  .main__title {
+    margin-top: var(--size-2xl);
+  }
+
+  .main__subtitle {
+    margin-top: var(--size-xs);
+  }
+
+  .main__subtitle-h1 {
+    font-size: calc(18px * 2.25);
+    max-width: 17ch;
+  }
+
+  .main__subtitle-h2 {
+    max-width: 28ch;
+    text-align: start;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .main__title {
+    margin-top: var(--size-3xl);
+  }
+
+  .main__subtitle {
+    margin-top: var(--size-sm);
+  }
+
+  .main__subtitle-h1 {
+    font-size: calc(18px * 2.75);
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .main__title {
+    margin-top: var(--size-4xl);
+  }
+
+  .main__subtitle {
+    margin-top: var(--size-base);
+  }
+
+  .main__subtitle-h1 {
+    font-size: calc(18px * 3);
+  }
+}
+
+/* 2xl */
+@media (min-width: 1440px) {
+  .main__title {
+    margin-top: var(--size-5xl);
+  }
+
+  .main__subtitle {
+    margin-top: var(--size-md);
+  }
+
+  .main__subtitle-h1 {
+    font-size: calc(18px * 3.555);
+  }
+}

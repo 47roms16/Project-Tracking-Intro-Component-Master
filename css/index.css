@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap");
+
+:root {
+  /* || Colors || */
+
+  /* Primary */
+  --red: hsl(0, 100%, 68%);
+
+  /* Neutral */
+  --very-dark-blue: hsl(230, 29%, 20%);
+  --dark-grayish-blue: hsl(230, 11%, 40%);
+  --grayish-blue: hsl(231, 7%, 65%);
+  --light-grayish-blue: hsl(207, 33%, 95%);
+
+  /* || Typography || */
+
+  /* Headings, Call-to-actions, Navigation */
+  --ff-heading: "Barlow Condensed", sans-serif;
+
+  /* Body */
+  --ff-body: "Barlow", sans-serif;
+
+  /* font weight */
+  --ff-normal: 400;
+  --ff-bold: 700;
+
+  /* Sizes */
+  --size-3xs: 0.25rem;
+  --size-2xs: 0.5rem;
+  --size-xs: 0.75rem;
+  --size-sm: 0.875rem;
+  --size-base: 1rem;
+  --size-md: 1.075rem;
+  --size-lg: 1.125rem;
+  --size-xl: 1.25rem;
+  --size-2xl: 1.5rem;
+  --size-3xl: 1.875rem;
+  --size-4xl: 2.25rem;
+  --size-5xl: 2.35rem;
+  --size-6xl: 2.85rem;
+  --size-7xl: 3rem;
+  --size-8xl: 3.85rem;
+  --size-9xl: 4rem;
+  --size-10xl: 4.5rem;
+  --size-11xl: 5.5rem;
+  --size-12xl: 6rem;
+  --size-13xl: 7.25rem;
+  --size-14xl: 8rem;
+  --size-15xl: 10rem;
+}
+
+/* * {
+  line-height: calc(1em + 0.5rem);
+} */
+
+html {
+  position: fixed;
+  font-family: var(--ff-heading);
+}
+
+body {
+  position: relative;
+  margin: 0;
+  width: 100vw;
+  font-size: var(--size-xl);
+}
